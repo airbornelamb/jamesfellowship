@@ -1,0 +1,8 @@
+/* TEAM */
+Designer: Josh Lamb
+Site: www.talmao.org
+Location: Grand Rapids, MI
+
+/* SITE */
+Last update: 2018/05/22
+Standards: HTML5, CSS3, jQuery

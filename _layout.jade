@@ -1,0 +1,70 @@
+doctype
+html
+  head
+    title= title
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="author" href="humans.txt" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    link(rel='stylesheet', href='assets/css/main.css')
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  body
+    #wrapper
+      #main
+        .inner
+          != yield
+      #sidebar
+        .inner
+          nav#menu
+            ul
+              li
+                a(href='index.html') Homepage
+              li 
+                a(href='intro.html') Introduction
+              li
+                span(class='opener active') Steps
+                ul
+                  li 
+                    a(href='step1.html') One
+                  li 
+                    a(href='step2.html') Two
+                  li 
+                    a(href='step3.html') Three
+                  li 
+                    a(href='step4.html') Four
+                  li 
+                    a(href='step5.html') Five
+                  li 
+                    a(href='step6.html') Six
+                  li 
+                    a(href='step7.html') Seven
+                  li 
+                    a(href='step8.html') Eight
+                  li 
+                    a(href='step9.html') Nine
+                  li
+                    a(href='step10.html') Ten
+                  li
+                    a(href='step11.html') Eleven
+                  li
+                    a(href='step12.html') Twelve
+              li
+                a(href='meetingformat.html') Meeting Format
+              // li
+                // a(href='mentors.html') Mentor Section
+          footer#footer
+            p.copyright
+              | Image Credit: <a href="https://unplash.com"> Unsplash</a>
+              <br>
+              | Design: <a href="http://talmao.org">Josh Lamb</a> using <a href="https://html5up.net"> HTML5 UP</a>
+    script(src='assets/js/jquery.min.js')
+    script(src='assets/js/regworker.js')
+    script(src='assets/js/skel.min.js')
+    script(src='assets/js/util.js')
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    script(src='assets/js/main.js')
+    script(src='assets/js/garlic.min.js')
+
