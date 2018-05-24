@@ -4,6 +4,7 @@
   "description": "A guide to the redeemed 12 step program",
   "lang": "en-US",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "icons": [
     {
